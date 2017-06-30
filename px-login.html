@@ -41,7 +41,7 @@ Custom property | Description
 @demo demo.html
 -->
 
-<dom-module id="px-login">
+<dom-module id="px-login-res">
   <template>
     <style include="px-login-styles"></style>
     <iron-ajax id="userInfoAjax" url="{{userInfoUrl}}" handle-as="json" method="GET"></iron-ajax>
@@ -73,7 +73,7 @@ Custom property | Description
 <script>
   Polymer({
 
-    is: 'px-login',
+    is: 'px-login-res',
 
     behaviors: [
       Polymer.AppLocalizeBehavior
